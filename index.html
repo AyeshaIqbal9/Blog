@@ -1,51 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./home.css">
-   
-</head>
-<body>
-    <div class="container" >
-        <div class="one">
-            <img class="fimg" src="./blog.png" alt="">
-        </div>
-       <div class="two">
-        <ul>
-            <li><a class="li1"  href="./index.html">Home</a></li>
-            <li><a class="li2"  href="./blog.html">Blog</a></li>
-            <li><a class="li3"  href="./contact.html">Contact Us</a></li>
-            <li><input type="text" placeholder="Search"></li>
-            <li><button>Submit</button></li>
-        </ul>
-      
-       </div>
-       
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./home.css" />
+  </head>
+  <body>
+    <header
+      class="navbar"
+      data-aos="fade-down"
+      data-aos-offset="500"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
+      <div class="logo">
+        <img src="./blog.png" alt="blog" />
+      </div>
 
-    <div class="container2">
-        <!-- <video class="video1" autoplay loop muted plays-inline class="background-clip">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <div
+      class="container2"
+      data-aos="fade-right"
+      data-aos-offset="500"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
+      <!-- <video class="video1" autoplay loop muted plays-inline class="background-clip">
             <source src="./video.mp4" type="video/mp4"> -->
-            <video class="video1"  src="./video.mp4"  autoplay loop muted plays-inline>
-            </video>
-        </video>
-        <p class="heading1">Your Next Favorite </p>
-        <p class="heading2">Blog Starts Here</p>
-        <p class="para1">Bring your vision to life with the website builder </p>
-        <p>that gives you the tools you need to succeed.</p>
+      <video
+        class="video1"
+        src="./video.mp4"
+        autoplay
+        loop
+        muted
+        plays-inline
+      ></video>
 
+      <p class="heading1">Your Next Favorite</p>
+      <p class="heading2">Blog Starts Here</p>
+      <p class="para1">Bring your vision to life with the website builder</p>
+      <p>that gives you the tools you need to succeed.</p>
     </div>
     <div class="container3">
-        <div class="con3left">
-            <img   src="./one.jpg" alt="">
-        </div>
-        <div class="con3right">
-            <h1 class="cont3head1">Ayesha Iqbal </h1>
-            <p> Lorem ipsum dolor sit amet  amet consectetur adipisicing elit. Rerum voluptates maiores, necessitatibus rem illum exercitationem, explicabo non quae, corrupti atque reprehenderit dolorem ipsam quia aliquid?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nobis dicta expedita iusto recusandae cum beatae libero minima dolor ut inventore fuga unde soluta esse officiis, iure  placeat exercitationem.  </p>
-    
-            
+      <div class="con3left">
+        <img src="./one.jpg" alt="" />
+      </div>
+      <div class="con3right">
+        <h1 class="cont3head1">Ayesha Iqbal</h1>
+        <p>
+          Lorem ipsum dolor sit amet amet consectetur adipisicing elit. Rerum
+          voluptates maiores, necessitatibus rem illum exercitationem, explicabo
+          non quae, corrupti atque reprehenderit dolorem ipsam quia aliquid?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nobis
+          dicta expedita iusto recusandae cum beatae libero minima dolor ut
+          inventore fuga unde soluta esse officiis, iure placeat exercitationem.
+        </p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
